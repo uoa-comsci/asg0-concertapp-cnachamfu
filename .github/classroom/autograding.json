@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "test resources",
+      "setup": "",
+      "run": "mvn -B -Dit.test=ConcertResourceIT verify --file pom.xml",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
